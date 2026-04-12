@@ -16,6 +16,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/repo.git"
+  },
+  "homepage": "https://github.com/Dikshit673/scafty#readme",
+  "bugs": {
+    "url": "https://github.com/Dikshit673/scafty/issues"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "dev": "tsx src/cli.ts"
