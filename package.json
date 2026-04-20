@@ -1,6 +1,6 @@
 {
   "name": "create-scafty",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Scaffold Express backend with TS, ESLint, Prettier",
   "bin": {
