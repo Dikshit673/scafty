@@ -11,6 +11,7 @@ export async function setupESLint(
 ) {
   devDeps.add('eslint');
   devDeps.add('globals');
+  devDeps.add('@eslint/js');
 
   let config = `import js from "@eslint/js";
 import globals from "globals";
@@ -62,7 +63,7 @@ export default defineConfig([
   if (answers.typescript) {
     config += `
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": "warn",`;
+      "@typescript-eslint/no-unused-vars": "off",`;
   } else {
     config += `
       "no-unused-vars": "warn",`;
